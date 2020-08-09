@@ -1,0 +1,74 @@
+#myBookList {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#myBookList caption {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0e8813;
+    padding-bottom: 5px;
+}
+
+#myBookList td, #myBookList th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#myBookList tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#myBookList tr:hover {
+    background-color: #ddd;
+}
+
+#myBookList th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#myBookList th i  {
+    float: right;
+}
+
+#popUp {
+    display: none;
+    position: absolute;
+    color: white;
+    background-color: #53aad4;
+}
+
+#popUpName {
+    font-weight: bold;
+    margin: 10px;
+}
+
+#popUpContent > div {
+    margin: 10px;
+}
+
+#popUpContent > div:not(:last-child):after {
+    content: ",";
+}
+#popUpClose {
+    position: absolute;
+    right: 0;
+    top: -25px;
+    color: #fafafa;
+    background-color: #92001d;
+    border: solid 1px #4c0f0b;
+    padding: 2px 4px;
+}
+
+#filters {
+    text-align: center;
+}
+
+#filters > div {
+    display: inline-block;
+    padding: 10px 20px 20px;
+}
